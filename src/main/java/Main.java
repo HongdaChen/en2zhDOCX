@@ -38,8 +38,16 @@ public class Main {
             f2.delete();
         }
         MergePDFs.main(outperFix,outPath);
-        //delete inpdf/* outpdf/*
-        DeleteTempFiles.main(new File(inperFix));
-        DeleteTempFiles.main(new File(outPath));
+        //delete inpdf/* outpdf/*  修改为不是方法调用，问题就解决了。但是为什么
+        File file = new File(inperFix);
+        File file1 = new File(outperFix);
+        File[] files = file.listFiles();
+        File[] files1 = file1.listFiles();
+        for( File f : files){
+            f.delete();
+        }
+        for( File f : files1){
+            f.delete();
+        }
     }
 }

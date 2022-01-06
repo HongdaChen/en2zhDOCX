@@ -25,5 +25,6 @@ public class ConvertPdfToDocx {
 
 // Save resultant DOCX file
         doc.save("resultant.docx", saveOptions);
+        doc.close();
     }
 }

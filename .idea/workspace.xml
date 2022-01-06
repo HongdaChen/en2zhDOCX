@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075fb6cc-eae3-44c8-a857-2a9cd676baa2" name="Default Changelist" comment="" />
+    <list default="true" id="075fb6cc-eae3-44c8-a857-2a9cd676baa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConvertDocxToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConvertDocxToPdf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConvertPdfToDocx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConvertPdfToDocx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConvertDocxToPdf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConvertDocxToPdf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConvertPdfToDocx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConvertPdfToDocx.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -37,7 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="23GSRQYu61yhqhZBN3zTnKPYdRZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -59,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ConvertDocxToPdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.ConvertDocxToPdf" />
       <module name="en2zhDOCX" />
@@ -105,8 +119,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConvertDocxToPdf" />
         <item itemvalue="Application.Translate" />
         <item itemvalue="Application.Extract" />
@@ -124,11 +138,22 @@
       <option name="presentableId" value="Default" />
       <updated>1641358921214</updated>
       <workItem from="1641358924166" duration="11435000" />
-      <workItem from="1641432487296" duration="6244000" />
+      <workItem from="1641432487296" duration="9286000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
