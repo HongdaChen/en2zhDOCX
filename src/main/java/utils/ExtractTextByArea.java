@@ -1,0 +1,81 @@
+//package utils;
+////1.8.10
+//import org.apache.pdfbox.pdmodel.PDDocument;
+//import org.apache.pdfbox.pdmodel.PDPage;
+//import org.apache.pdfbox.util.PDFTextStripperByArea;
+//
+//import java.awt.Rectangle;
+//
+//import java.util.List;
+//
+///**
+// * This is an example on how to extract text from a specific area on
+// the PDF document.
+// *
+// * Usage: java org.apache.pdfbox.examples.util.ExtractTextByArea
+// &lt;input-pdf&gt;
+// *
+// * @author <a href="mailto:ben@benlitchfield.com">Ben Litchfield</a>
+// * @version $Revision: 1.2 $
+// */
+//public class ExtractTextByArea
+//{
+//    private ExtractTextByArea()
+//    {
+////utility class and should not be constructed.
+//    }
+//
+//
+//    /**
+//     * This will print the documents text in a certain area.
+//     *
+//     * @param args The command line arguments.
+//     *
+//     * @throws Exception If there is an error parsing the document.
+//     */
+//    public static void main( String[] args ) throws Exception
+//    {
+//        if( args.length != 1 )
+//        {
+//            usage();
+//        }
+//        else
+//        {
+//            PDDocument document = null;
+//            try
+//            {
+//                document = PDDocument.load( args[0] );
+//                if( document.isEncrypted() )
+//                {
+//                    document.decrypt( "" );
+//                }
+//                PDFTextStripperByArea stripper = new PDFTextStripperByArea();
+//                stripper.setSortByPosition( true );
+//                Rectangle rect = new Rectangle( 10, 280, 275, 60 );
+//                stripper.addRegion( "class1", rect );
+//                List allPages = document.getDocumentCatalog().getAllPages();
+//                PDPage firstPage = (PDPage)allPages.get( 0 );
+//                stripper.extractRegions( firstPage );
+//                System.out.println( "Text in the area:" + rect );
+//                System.out.println( stripper.getTextForRegion( "class1") );
+//
+//            }
+//            finally
+//            {
+//                if( document != null )
+//                {
+//                    document.close();
+//                }
+//            }
+//        }
+//    }
+//
+//    /**
+//     * This will print the usage for this document.
+//     */
+//    private static void usage()
+//    {
+//        System.err.println( "Usage: javaorg.apache.pdfbox.examples.util.ExtractTextByArea <input-pdf>" );
+//    }
+//
+//}

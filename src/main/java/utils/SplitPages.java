@@ -5,14 +5,14 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.List;
+import java.util.Iterator;
 
 public class SplitPages {
-    public static int main(String inPath,String outPath) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         //Loading an existing PDF document
-        File file = new File(inPath);
+        File file = new File("C:\\Users\\chenhongda\\Desktop\\FLPPT.pdf");
         PDDocument document = PDDocument.load(file);
 
         //Instantiating Splitter class
@@ -28,11 +28,9 @@ public class SplitPages {
         int i = 1;
         while(iterator.hasNext()) {
             PDDocument pd = iterator.next();
-//            System.getProperty("user.dir")+"\\src\\main\\resources\\inperfix
-            pd.save(outPath+"single"+ i++ +".pdf");
+            pd.save("C:\\Users\\chenhongda\\Desktop\\en2zhPDF\\src\\main\\resources\\single"+ i++ +".pdf");
         }
         System.out.println("Multiple PDF’s created");
         document.close();
-        return i-1;
     }
 }
